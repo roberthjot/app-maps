@@ -1,4 +1,4 @@
-import axios from "axios";
+﻿import axios from "axios";
 
 const directionsApi = axios.create({
     baseURL: 'https://api.mapbox.com/directions/v5/mapbox/driving',
@@ -7,7 +7,7 @@ const directionsApi = axios.create({
         geometries: 'geojson',
         overview: 'simplified',
         steps: false,
-        access_token: 'pk.eyJ1Ijoicm9iZXJ0aGpvdCIsImEiOiJja3lxb3BlbmYwbTR0MndwMmcza2VrcDNpIn0.OR8xFNePn4djfSyQVGUScQ'
+        access_token: 'YOUR_MAPBOX_TOKEN_HERE'
     }
 });
 
